@@ -134,18 +134,7 @@ body {
     padding: 10px;
 }
 
-#section1 {
-    background-image: url('/image/bgP1.png');
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center; 
-    color: white; 
-}
 
-.section-content {
-    background-color: rgba(0,0,0,0.5); 
-    padding: 20px;
-}
 
 #section2 {
     background-image: url('/image/bgP2.png');
@@ -155,6 +144,12 @@ body {
     color: white; 
 
 }
+
+.section-content {
+    background-color: rgba(0,0,0,0.5); 
+    padding: 20px;
+}
+
 
 #section3 {
     background-image: url('/image/bgP3.png');
@@ -171,6 +166,14 @@ body {
     background-repeat: no-repeat; 
     background-position: center; 
     color: white; 
+}
+
+#section1 {
+  background-image: url('/image/bgP1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
 }
 
 .about-image {
