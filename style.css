@@ -188,8 +188,17 @@ body {
   height: auto;
 }
 
+#wm1 {
+  padding-right: 10px
+}
+mark {
+background: rgba(29, 116, 255, 0.64)
+
+}
+
 @media (max-width: 768px) {
   .about-img {
     max-width: 95%;
   }
 }
+
