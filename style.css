@@ -134,7 +134,9 @@ body {
     padding: 10px;
 }
 
-
+.bottom-footer:hover {
+  background-color: rgba(2, 123, 0, 0.74); /* Slightly darker hover */
+}
 
 #section2 {
     background-image: url('/image/bgP2.png');
