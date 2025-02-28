@@ -204,3 +204,40 @@ background: rgba(29, 116, 255, 0.64)
   }
 }
 
+/* new adding section4 design(contect details) */
+.social-buttons {
+  display: flex;
+  justify-content: center; /* or space-around, space-between */
+  align-items: center;
+  gap: 20px; /* Adjust spacing between buttons */
+  margin-top: 20px; /* Add space from other content */
+}
+
+.facebook-button,
+.whatsapp-button,
+.call-button {
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.facebook-button {
+  background-color: #1877f2;
+}
+
+.whatsapp-button {
+  background-color: #25d366;
+}
+
+.call-button {
+  background-color: #007bff; /* Or any other suitable color */
+}
+
+.facebook-button:hover,
+.whatsapp-button:hover,
+.call-button:hover {
+  opacity: 0.8;
+}
+
