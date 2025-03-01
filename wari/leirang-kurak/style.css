@@ -124,3 +124,14 @@ body {
 .page-numbers button.active {
   background-color: #ddd;
 }
+
+.bottom-footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.bottom-footer:hover {
+  background-color: rgba(2, 123, 0, 0.74); /* Slightly darker hover */
+}
