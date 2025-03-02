@@ -26,6 +26,7 @@ body {
    /* padding: 0.5rem 1rem;*/
     margin: 0 1rem;
     transition: color 0.3s ease;
+
 }
 
 .nav-link:hover {
@@ -241,3 +242,11 @@ background: rgba(29, 116, 255, 0.64)
   opacity: 0.8;
 }
 
+#section5 {
+    background-image: url('/image/bg1s.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    color: white; 
+
+}
