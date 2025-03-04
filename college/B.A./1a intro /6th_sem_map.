@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipuri Honours 2st Semester</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>B. A. <br> Manipuri Honours <br> 1st Semester</h1>
+        <div class="courses">
+            <div class="course">
+                <div class="course-title">Core Paper/MANCC-101 <br> Poetry and Prose</div>
+                <div class="units">
+                    <div class="unit"><a href="#poetry">Unit 1 - Poetry </a></div>
+                    <div class="unit"><a href="#Prose">Unit 2 - Prose</a></div>
+                </div>
+            </div>
+            <div class="course">
+                <div class="course-title">Core Paper/MANCC-102 <br> Grammar and Composition</div>
+                <div class="units">
+                    <div class="unit grammar">
+                        <div class="unit-title"><a href="#Grammar">Grammar</a></div>
+                        <div class="unit-item">Unit-1: Phoneme</div>
+                        <div class="unit-item">Unit-2: Morpheme</div>
+                        <div class="unit-item">Unit-3: Syntax</div>
+                    </div>
+                    <div class="unit composition">
+                        <div class="unit-title"><a href="#Composition">Composition</a></div>
+                        <div class="unit-item">Unit-1: Precis</div>
+                        <div class="unit-item">Unit-2: Essay</div>
+                        <div class="unit-item">Unit-3: Amplification and Paragraph Writing</div>
+                        <div class="unit-item">Unit-4: Comprehension</div>
+                        <div class="unit-item">Unit-5: Notice and Amplification</div>
+                        <div class="unit-item">Unit-6: Idiom</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+  
+        <div class="course-content">
+            <h2 id="poetry">Course Content: Unit-1: Poetry</h2>
+            <div class="content-list">
+                <div class="content-item">1. Chandranadi - Lamabam Kamal</div>
+                <div class="content-item">2. Ningkhaire - Khwairakpam Chaoba</div>
+                <div class="content-item">3. Kamalda - Ashangbam Minaketan</div>
+                <div class="content-item">4. Kadomdano Lambisibu - Elangbam Nilakanta</div>
+                <div class="content-item">5. Khul Amagi Wari - Laishram Samarendra</div>
+                <div class="content-item">6. Laireibakki Momon Meenok - Shri Biren</div>
+                <div class="content-item">7. Bhoot Amasung Maikhum - Thangjam Ibopishak</div>
+                <div class="content-item">8. Jagoi Jagoi - Yumlembam Ibomcha</div>
+                <div class="content-item">9. Nongthang Leima - Arambam (0) Memchoubi</div>
+                <div class="content-item">10. Khonjelsibu Nangira - Dr. Sanjenbam Bhanumati</div>
+                <div class="content-item">11. Kobi Champhut - Moirangthem Borkeina</div>
+                <div class="content-item">12. Leirol - Ariba</div>
+            </div>
+        </div>
+        
+                <div class="course-content">
+          <h2 id="Prose">Course Content: Unit-2: Prose</h2>
+          <div class="content-list">
+            <div class="content-item">1. Kavi - Khwairakpam Chaoba</div>
+            <div class="content-item">2. Androgi Mei - Ashangbam Minaketan</div>
+            <div class="content-item">3. ꯂꯟ -  Krishnamohan Sinam</div>
+            <div class="content-item">4. Phajaba - Shastri Manisana</div>
+            <div class="content-item">5. Manipuri Kavitagi Shanda - Nilakanta Elangbam</div>
+            <div class="content-item">6. Lai Haraoba - Chongtham Manihar</div>
+            <div class="content-item">7. Brindavangi Lambida - IR Babu</div>
+            <div class="content-item">8. Wakma Maibi - Thounaojam Chanu Ibemhal</div>
+ 
+          </div>
+        </div>
+        
+
+                <div class="course-content">
+          <h2 id="Grammar">Course Content: Grammar</h2>
+          <div class="content-list">
+            <div class="content-item"><a href="#">Unit-1: Phonem</a></div>
+            <div class="content-item"><a href="#">Unit-2: Morpheme</a></div>
+            <div class="content-item"><a href="#">Unit-3: Syntax</a></div>
+
+          </div>
+        </div>
+        
+        <div class="course-content">
+          <h2 id="Composition">Course Content: Composition</h2>
+          <div class="content-list">
+            <div class="content-item"><a href="#">Unit-1: Precis</a></div>
+            <div class="content-item"><a href="#">Unit-2: Essay</a></div>
+            <div class="content-item"><a href="#">Unit-3: Amplification and Paragraph Writing</a></div>
+            <div class="content-item"><a href="#">Unit-4: Comprehension</a></div>
+            <div class="content-item"><a href="#">Unit-5: Notice and Amplification</a></div>
+            <div class="content-item"><a href="#">Unit-6: Idiom</a></div>
+
+          </div>
+        </div>
+        
+         <div class="course-content">
+          <div class="content-list">
+            <div class="content-item">
+              
+              <button id="nextButton"><a href="/college/B.A./1a intro /7th_sem_map.html" id="nav-link">7th Semester</a></button>
+
+              
+            </div>
+          </div>
+        </div>
+       
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

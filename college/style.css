@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("/college/bg.jpg"); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    background-color: rgba(25, 25, 20, 0.74); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.programs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.program {
+    background-color: rgba(91, 202, 191, 0.4); /* Semi-transparent white background */
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Semi-transparent border */
+    padding: 2px;
+    border-radius: 9px;
+}
+
+.program ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.program li {
+    margin-bottom: 5px;
+    display: list-item; /* or 'block' */ 
+}
+
+#nav-link {
+  text-decoration: none;
+  color: #FFFFFF;
+  /* padding: 0.5rem 1rem;*/
+  margin: 0 1rem;
+  transition: color 0.3s ease;
+  
+}
+
+#nav-link:hover {
+  color: #A79DEC;
+}
