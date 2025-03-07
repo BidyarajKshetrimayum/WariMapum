@@ -1,0 +1,113 @@
+/* style.css */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('/Seirang/image/bg.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: keeps background fixed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-box {
+    background-color: rgba(22, 22, 22, 0.48); /* Semi-transparent white */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 380px;
+    max-width: 90%;
+}
+
+.link-title {
+    font-size: 2.2em;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #00FFE6;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-item {
+    margin-bottom: 15px;
+}
+
+.link {
+    text-decoration: none;
+    color: #2EE96B;
+    font-weight: 400;
+    transition: color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+.link:hover {
+    color: #D6922B;
+    transform: translateY(-3px);
+    background-color: #f0f8ff;
+}
+
+.link {
+    border: 1px solid transparent;
+}
+
+.link:hover {
+    border: 1px solid #d1e8ff;
+}
+
+.bottom-footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.bottom-footer:hover {
+  background-color: rgba(2, 123, 0, 0.74); /* Slightly darker hover */
+}
+
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(30, 26, 26, 0.7);
+  padding: 1rem 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #FFFFFF;
+   /* padding: 0.5rem 1rem;*/
+    margin: 0 1rem;
+    transition: color 0.3s ease;
+
+}
+
+.nav-link:hover {
+    color: #A79DEC;
+}
